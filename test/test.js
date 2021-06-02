@@ -1,7 +1,7 @@
 const expect = chai.expect,
   testincome = 13450;
-describe('Days In A Month', () => {
-  it('Calculate how many days there are in a month', () => {
+describe('50-30-20 Strategy', () => {
+  it('Create a function that returns an object with the 50-30-20 Strategy', () => {
     expect(fiftyThirtyTwenty(testincome)).to.eql(
       {
         Needs: 6725,
